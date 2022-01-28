@@ -1,0 +1,82 @@
+.on-drag {
+  border: solid 3px white;
+  background-color: white;
+  opacity: 0.2;
+  box-shadow: 10px 10px 8px white;
+}
+
+.clonedrag-cont .arrow-sign {
+  text-align: center;
+  margin-top: 100px;
+  width: 40px;
+}
+.clonedrag-cont .arrow-sign .arrow {
+  cursor: pointer;
+  border: 1px solid #d2d4d5;
+  border-radius: 5px;
+  width: 34px;
+  margin: 0 auto;
+  height: 46px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #4b5358;
+}
+
+.clonedrag-cont .arrow-sign .arrow:hover {
+  border: 1px solid #d8bfac;
+  background: rgba(240, 229, 223, 0.5);
+}
+
+.clonedrag-cont .form-control {
+  padding: 0.725rem;
+}
+
+.clonedrag-cont .item {
+  padding: 5px;
+  border: 1px solid #a5a9ab;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  position: relative;
+  color: #4b5358;
+  cursor: pointer;
+}
+.clonedrag-cont .item:last-child {
+  margin-bottom: 0px;
+}
+
+.clonedrag-cont .item .clsbtn {
+  position: absolute;
+  right: 4px;
+  cursor: pointer;
+  padding: 3px 4px;
+  top: 2px;
+}
+.clonedrag-cont .item:hover,.clonedrag-cont .item.selected {
+  border: 1px solid #d8bfac;
+  background: rgba(240, 229, 223, 0.5);
+}
+
+.clonedrag-cont .scroll-cont {
+  overflow-y: auto;
+  height: calc(310px - 16px);
+  padding-right: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #9b9393 #d2d4d5;
+}
+
+.clonedrag-cont .scroll-cont::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 25px;
+}
+
+.clonedrag-cont .scroll-cont::-webkit-scrollbar-track {
+  background: #d2d4d5;
+  border-radius: 25px;
+}
+
+.clonedrag-cont .scroll-cont::-webkit-scrollbar-thumb {
+  background-color: #a5a9ab;
+  border-radius: 25px;
+  border: 0px solid #d2d4d5;
+}

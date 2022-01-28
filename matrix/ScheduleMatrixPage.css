@@ -1,0 +1,86 @@
+/* Print Table Starts */
+.label-cont {
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .print-table {
+    font-size: 13px;
+    color: #4B5358;
+  }
+  
+  .print-table .table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .print-table thead,
+  .print-table tbody,
+  .print-table tfoot,
+  .print-table tr,
+  .print-table td,
+  .print-table th {
+    border-color: #4B5358;
+  }
+  
+  .print-table tr td:nth-child(even) {
+    border-color: #A5A9AB;
+  }
+  
+  .print-table thead tr th {
+    text-align: center;
+    background-color: #C9947E;
+    font-size: 14px;
+    font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  
+  .print-table .orderday {
+    background-color: #D2D4D5;
+  }
+  
+  .print-table .order-head {
+    font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+  }
+  
+  .print-table .deparment-row {
+    font-weight: bold;
+    background-color: #F0E5DF !important;
+    color: #B43B3C !important;
+    font-size: 14px;
+    font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+  }
+  
+  .print-table .product {
+    border-color: #A5A9AB;
+    border-style: dashed;
+  }
+  
+  .print-table .product td:nth-of-type(even) {
+    font-weight: bold;
+  }
+  
+  .print-table .product:nth-of-type(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .print-table .product:last-child {
+    border-bottom-style: solid;
+  }
+
+  .text-title-filter {
+    font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 38px;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+.margin-btm{
+    margin-bottom: -1rem;
+}
+  /* Print Table ends */

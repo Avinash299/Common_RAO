@@ -1,0 +1,130 @@
+/* Massupdate CSS Starts */
+.wizard-nav-cont {
+  margin-bottom: 1rem;
+}
+
+.wizard-nav-cont .wizardul {
+  border: 0;
+}
+
+.wizard-nav-cont .wizardul li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 calc(20% - 1rem);
+  flex: 1 0 calc(20% - 1rem);
+  margin-right: 0rem;
+  cursor: pointer;
+}
+
+.wizard-nav-cont .wizardul li:last-child {
+  margin-right: 0rem;
+}
+
+.wizard-nav-cont .wizardul li button {
+  padding: 0.25rem;
+  width: 100%;
+  color: #abbac2;
+  border: 0;
+  background-color: transparent;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+}
+
+.wizard-nav-cont .wizardul li button .line {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  height: 4px;
+  background-color: #abbac2;
+  margin-bottom: 10px;
+}
+
+.wizard-nav-cont .wizardul li button .bullet {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid #abbac2;
+}
+
+.wizard-nav-cont .wizardul li button.visited {
+  background-color: transparent;
+  color: #787e82;
+}
+
+.wizard-nav-cont .wizardul li button.visited .line {
+  background-color: #787e82;
+}
+
+.wizard-nav-cont .wizardul li button.visited .bullet {
+  border: 2px solid #787e82;
+  background-color: #787e82;
+}
+
+.wizard-nav-cont .wizardul li button.active {
+  background-color: transparent;
+  color: #ee303e;
+}
+
+.wizard-nav-cont .wizardul li button.active .line {
+  background-color: #ee303e;
+}
+
+.wizard-nav-cont .wizardul li button.active .bullet {
+  border: 2px solid #ee303e;
+  background-color: #ee303e;
+}
+
+.mupdate-status {
+  background-color: #f0e5df;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.mupdate-status .text-title {
+  margin: 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mupdate-status .text-title label {
+  max-width: 200px;
+  display: inline-block;
+  min-width: 48px;
+  margin: 0 5px;
+}
+
+.mupdate-status .leftcont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mupdate-status .rightcont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wizard-cont .accordion-button {
+  background-color: #ffffff;
+  font-family: "Larsseit_bold", Arial, Helvetica, sans-serif;
+}
+.wizard-cont .accordion-item {
+  border: 0;
+}
+.wizard-cont .accordion-button:not(.collapsed) {
+  color: #ee303e;
+}
+
+/* Massupdate CSS Ends */

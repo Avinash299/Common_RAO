@@ -1,0 +1,13 @@
+.chkbox-select {
+    height: 25px;
+    width:25px;
+    position: absolute;
+    z-index: 999;
+    margin: 0.9rem;
+}
+.acc-label{
+    color:#4b5358;
+}
+.acc-value{
+    color:#ee303e;
+}
